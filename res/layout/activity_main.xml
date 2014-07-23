@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.omaturi.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/mbackground"
+     >
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="102dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@drawable/zukan2"
+        android:src="@drawable/zukan2" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/option"
+        android:src="@drawable/option" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:background="@drawable/gacha2"
+        android:src="@drawable/gacha2" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="43dp"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:background="@drawable/asobu2"
+        android:src="@drawable/asobu2" />
+
+</RelativeLayout>
+
